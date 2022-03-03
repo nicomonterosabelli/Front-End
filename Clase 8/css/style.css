@@ -1,0 +1,28 @@
+h1 {
+    color: #107700;
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3 {
+    color: #107700;
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+}
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+#Logo {
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+footer {
+    background-color: #107700;
+}
+#Footer {
+    color: #FFFFFF;
+    text-align: center;
+}
