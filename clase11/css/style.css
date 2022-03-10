@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 1024px;
+    height: 100px;
+    justify-content: space-between;
+    background-color: #222222;
+}
+#primerLogo{
+    width: 234px;
+    height: 80px;
+    margin: 5px;
+    align-self: center;
+}
+#superiorNav{
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+ol {
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+li {
+    margin: 8px
+}
+body{
+    background-color: #e5e5e5;
+    width: 1024px;
+}
+main {
+    display: flex;
+    width: 1024px;
+    justify-content: space-around;
+    margin: 10px;
+}
+section{
+    width: 490px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#primer{
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    Width: 1024px;
+    Height: 150px;
+    justify-content: space-between;
+    background-color: #222222;
+}
+#inferiorNav{
+    position: relative;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+h2 {
+    color: #fc200c;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+span{
+    color: white;
+}
+#segundoh2{
+    position: relative;
+    left: 150px;
+}
+h3 {
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 700;
+    left: 50px;
+}
+#pizzacayendo{
+    position: relative;
+    left: 300px;
+    top: -150px;
+}
+#ultimoLogo {
+    width: 212px;
+    height: 80px;
+    align-self: center;
+    margin: 10px;
+}
