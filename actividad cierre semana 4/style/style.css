@@ -1,0 +1,343 @@
+body{
+    box-sizing: border-box;
+}
+body {
+    width: 1024px;
+    height: 1807px;
+}
+section {
+    display: flex;  
+}
+#s1{
+    width: 1024px;
+    height: 20px;
+    justify-content: space-between;
+    background-color: #222222;
+}
+#s2{
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    width: 1024px;
+    height: 62px;
+}
+#ul1{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#ul1 li{
+    margin: 10px;
+    color: #f3f3f3;
+}
+#s3{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    width: 1025px;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#n1{
+    display: flex;
+    position: relative;
+    background-color: #222222;
+    justify-content: space-between;
+}
+header {
+    background-color: #222222;
+}
+.Logo{
+    width: 166.38px;
+    height: 23px;
+    align-self: center;
+    margin: 20px;
+}
+.ofertacomedero{
+    width: 138px;
+    height: 12px;
+    bottom: 50px;
+    color: #f3f3f3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    align-self: center;
+    margin: 10px;
+}
+.nav1 {
+    color: #f3f3f3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    align-self: center;
+    width: 36px;
+    height: 12px;
+    margin: 5px;
+}
+h2{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 5px;
+    width: 365px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    margin: 10px;
+    bottom: -150px;
+}
+#p1{
+    width: 190px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    height: 19px;
+    position: relative;
+    bottom: -130px;
+    left: -80px;
+}
+a{
+    display: flex;
+    width: 141px;
+    height: 49px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background-color: #F0A83E;
+    color: #f3f3f3;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: -130px;
+    left: -115px;
+}
+h1 {
+    position: relative;
+    width: 406px;
+    height: 47px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    left: 20px;
+}
+#s4{
+    flex-direction: column;
+    align-items: center;
+}
+#pawprincipal{
+    width: 67px;
+    height: 71px;
+    margin-top: 20px;
+}
+#ul2{
+    position: relative;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    right: 20px;
+    bottom: 30px;
+
+}
+#ul2 li{
+    margin: 10px;
+}
+#s5{
+    display: flex;
+}
+article{
+    margin: 20px;
+}
+h5{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    bottom: 80px;
+    left: 70px;
+}
+article p{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #F0A83E;
+    bottom: 100px;
+    left: 120px;
+}
+#s6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#s6 h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #3C2313;
+}
+#s6 ul{
+    list-style: none;
+}
+#s6 li{
+    display: flex;
+    width: 340px;
+    border-radius: 15px;
+    height: 40px;
+    background-color: #3C2313;
+    align-items: center;
+    color: #ffffff;
+    font-size: 9px;
+    align-items: center;
+    margin: 10px;
+}
+#n3{
+    display: flex;
+}
+#n3 p{
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #8A8787;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+#n3 #p2 {
+    background-color: #F0A83E;
+}
+#s7{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1024px;
+    height: 60px;
+    background-color: #F0A83E;
+}
+#s7 section p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+#s7 img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+#s7 nav{
+    display: flex;
+    align-items: center;
+}
+#s7 p{
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    border-radius: 15px;
+    margin: 10px;
+}
+#p3{
+    color: #A0A0A0;;
+    width: 271px;
+    height: 40px;
+    background-color: #FFFFFF;
+}
+#p4{
+    display: flex;
+    width: 70px;
+    height: 34px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: #222222;
+}
+footer p{
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+}
+footer article{
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 284px;
+    background-color: #3C2313;
+    margin: 0px;
+}
+footer ul img{
+    width: 66px;
+    height: 66px;
+}
+footer ul{
+    height: 284px;
+}
+footer ul li{
+    display: flex;
+    margin: 20px;
+    color:#ffffff;
+    
+}
+footer ul p{
+    display: flex;
+}
+footer h3{
+    position: relative;
+    top: -20px;
+    right: -30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+footer span{
+    position: relative;
+    bottom: -25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #8A8787;
+    left: -55px;
+}
+#span1{
+    left: -43px;
+}
+#span2{
+    left: -133px;
+}
