@@ -1,25 +1,26 @@
 body{
     box-sizing: border-box;
+    margin: 0;
 }
 body {
-    width: 1024px;
-    height: 1807px;
+    width: 100vw;
 }
 section {
     display: flex;  
 }
 #s1{
-    width: 1024px;
-    height: 20px;
+    width: 100vw;
+    height: 3vw;
     justify-content: space-between;
     background-color: #222222;
 }
 #s2{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #F0A83E;
-    width: 1024px;
-    height: 62px;
+    width: 100vw;
+    height: 15vh;
 }
 #ul1{
     display: flex;
@@ -32,8 +33,10 @@ section {
 }
 #s3{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-    width: 1025px;
-    height: 409px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -158,9 +161,12 @@ h1 {
 }
 #s5{
     display: flex;
+    width: 100vw;
+    justify-content: space-around;
 }
 article{
-    margin: 20px;
+    margin: 2%;
+    width: 20%;
 }
 h5{
     position: relative;
@@ -234,8 +240,8 @@ article p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1024px;
-    height: 60px;
+    width: 100vw;
+    height: 8vh;
     background-color: #F0A83E;
 }
 #s7 section p{
@@ -246,9 +252,9 @@ article p{
     color: #FFFFFF;
 }
 #s7 img{
-    width: 40px;
-    height: 40px;
-    margin: 10px;
+    width: 15%;
+    height: 15%;
+    margin: 2%;
 }
 #s7 nav{
     display: flex;
@@ -281,6 +287,8 @@ article p{
 }
 footer{
     background-color: #222222;
+    width: 100vw;
+    height: 50vh;
 }
 footer p{
     display: flex;
@@ -295,8 +303,8 @@ footer p{
 footer article{
     display: flex;
     justify-content: space-between;
-    width: 1024px;
-    height: 284px;
+    width: 100%;
+    height: 90%;
     background-color: #3C2313;
     margin: 0px;
 }
@@ -340,4 +348,50 @@ footer span{
 }
 #span2{
     left: -133px;
+}
+@media(min-width: 443px) and (max-width: 800px) {
+    #s5 article{
+        position: relative;
+        right: 10%;
+    }
+}
+@media(max-width: 442px){
+    #s2{
+        height: 10vh;
+    }
+    #ul1{
+        font-size: 0.5rem;
+        width: 80%;
+    }
+    #ul1 img{
+        height: 1.5vh;
+        width: 3vw;
+    }
+    #ul1 li{
+        width: 30%;
+    }
+    .Logo {
+        width: 25%;
+        height: 20%;
+    }
+    #s5{
+        flex-direction: column;
+        align-items: center;
+    }
+    #s5 article{
+        position: relative;
+        left: -20%;
+    }
+    #s7 nav {
+        width: 50%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    #span2{
+        position: absolute;
+        left: 42%;
+        top: 333%;
+    }
 }
