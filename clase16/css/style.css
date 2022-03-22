@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+header{
+    background-color: #1CD1B0;
+    margin-top: 0%;
+}
+header p{
+    margin-bottom: 0;
+    position: relative;
+    margin-left: 1vw;
+    margin-top: 0;
+}
+h2{
+    background-color: #00669F;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF
+}
+nav{
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+    color: #FFFFFF;
+    margin-top: 0%;
+    height: 5vh;
+    align-items: center;
+}
+ul{
+    display: flex;
+    width: 20%;
+    margin-right: 3vw;
+}
+li{
+    margin: 5%;
+    list-style: none;
+}
+main{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: #FBFFFD;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-bottom: 0;
+}
+h5{
+    color: #FBFFFD;
+}
+form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: #00669F;
+    border-radius: 10%;
+    margin: 5%;
+    align-items: center;
+    width: 50vw;
+    height: 70vh;
+    bottom: 4vh;
+}
+fieldset{
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+    border-style: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2%;
+}
+button{
+    position: relative;
+    background: #1CD1B0;
+    border-style: none;
+    height: 7vh;
+    width: 25vw;
+    top: 5%;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+footer{
+    position: relative;
+    background: #00669F;
+    margin-bottom: 0%;
+    height: 6vh;
+    top: 8.3vh;
+    display: flex;
+    justify-content: center;
+}
+label{
+    color: #FBFFFD;
+}
+#nombre{
+    height: 4.5vh;
+    border-radius: 7px;
+    border-style: none;
+    position: relative;
+    margin: 0%;
+}
+#fecha{
+    height: 4.5vh;
+    border-radius: 7px;
+    border-style: none;
+    position: relative;
+    margin: 0%;
+}
+textarea{
+    height: 18vh;
+    border-radius: 7px;
+    border-style: none;
+}
+select{
+    width: 15vw;
+    height: 4.5vh;
+    border-radius: 7px;
+    border-style: none;
+}
+#s2{
+
+}
+#foto{
+    width: 15vw;
+    border-radius: 7px;
+    border-style: none;
+}
