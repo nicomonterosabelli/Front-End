@@ -71,13 +71,16 @@ fieldset{
     justify-content: space-around;
     height: 60%;
     border-style: none;
+    width: 80%;
 }
 section{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 2%;
+    width: 40%;
 }
+
 button{
     position: relative;
     background: #1CD1B0;
@@ -107,21 +110,21 @@ label{
     color: #FBFFFD;
 }
 #nombre{
-    height: 4.5vh;
+    height: 13%;
     border-radius: 7px;
     border-style: none;
     position: relative;
     margin: 0%;
 }
 #fecha{
-    height: 4.5vh;
+    height: 15%;
     border-radius: 7px;
     border-style: none;
     position: relative;
     margin: 0%;
 }
 textarea{
-    height: 18vh;
+    height: 50%;
     border-radius: 7px;
     border-style: none;
     cursor:pointer;
@@ -131,7 +134,7 @@ textarea:hover{
     background-color: darkgray;
 }
 select{
-    width: 15vw;
+    width: 100%;
     height: 4.5vh;
     border-radius: 7px;
     border-style: none;
@@ -147,13 +150,16 @@ input{
     cursor: pointer;
 }
 #foto{
-    width: 15vw;
+    width: 100%;
     border-radius: 7px;
     border-style: none;
 }
 
 @media (max-width: 1280px) {
-    fieldset{
-        
+    form{
+      width: 80%;  
+    }
+    section{
+      width: 30%;
     }
 }
