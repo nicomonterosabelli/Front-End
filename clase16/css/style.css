@@ -89,6 +89,10 @@ button{
     font-size: xx-large;
     font-weight: bold;
     border-radius: 10px;
+    cursor:pointer;
+}
+button:focus{
+    color: #00669F;
 }
 footer{
     position: relative;
@@ -120,18 +124,36 @@ textarea{
     height: 18vh;
     border-radius: 7px;
     border-style: none;
+    cursor:pointer;
+    
+}
+textarea:hover{
+    background-color: darkgray;
 }
 select{
     width: 15vw;
     height: 4.5vh;
     border-radius: 7px;
     border-style: none;
+    cursor:pointer;
 }
-#s2{
-
+select:hover{
+    background-color: darkgray;
+}
+input:hover{
+    background-color: darkgrey;
+}
+input{
+    cursor: pointer;
 }
 #foto{
     width: 15vw;
     border-radius: 7px;
     border-style: none;
+}
+
+@media (max-width: 1280px) {
+    fieldset{
+        
+    }
 }
